@@ -1,0 +1,85 @@
+body{
+    margin-left: 50px;
+    background-color: rgb(232, 235, 244);
+    color:rgb(24, 25, 35);
+    font-family:'Lucida Sans';
+}
+
+#create_container{
+  display: flex;
+  flex-direction: row;
+}
+
+#input_item{
+   display: flex;
+    width:300px;
+    height: 20px;
+    border-radius: 0%;
+    border-width: 1.5px;
+    
+}
+
+#create_button{
+    display: block;
+    box-shadow: none;
+    border: none;
+    margin-left: 12px;
+    width: 70px;
+    border-radius: 2px;
+    height: 25px;
+    background-color: rgb(68, 39, 99);
+    border-color:  rgb(68, 39, 99);
+    color: rgb(232, 235, 244);
+    font-family: 'Lucida Sans';
+    font-size: 15px;
+    
+}
+
+#create_button:hover{
+    background-color: rgb(38, 21, 56);
+}
+
+
+
+.delete_item{
+    border: none;
+    background-color: rgb(232, 235, 244);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.delete_icon{
+    width: 20px;
+    display: block;
+}
+
+.delete_item:hover{
+    background-color: rgb(255, 125, 125);
+    
+}
+
+.item {
+  display: flex;
+  align-items: center; 
+  gap: 10px;
+}
+
+.item label {
+  display: flex;
+  align-items: center;   
+  gap: 6px;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height:20px;
+  border-color: rgb(68, 39, 99);
+  border-radius: 0px;
+  accent-color: rgb(68, 39, 99);
+}
+
+/* #item_list_container{
+} */
